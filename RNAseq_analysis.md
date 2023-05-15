@@ -223,6 +223,7 @@ Gene counts were then imported to R for further processing.
 -----------------------------------------
 
 ### 6. Software
+
 * fastqc/0.11.9
 
 * python/3.10.2
@@ -245,6 +246,7 @@ Gene counts were then imported to R for further processing.
 
 * RSeQC/4.0.0
 
+-----------------------------------------
 
 ### 7. Acknowledgements
 This analysis assumes the use of a Linux computer with an ‘x86_64’ architecture. This research was partly enabled by software provided by the  [Digital Research Alliance of Canada](https://alliancecan.ca/en).
