@@ -1,5 +1,5 @@
-# RNA-seq analysis
-#### Jorge Peña-Díaz - May 12th 2023
+# RNA-seq analysis - Alignment
+#### Jorge Peña-Díaz - May 14th 2023
 
 -----------------------------------------
 
@@ -16,7 +16,6 @@ Bacterial Virulence and Colonization Dynamics During an Enteric Infection. bioRx
 Define a global working directory and other relevant environment variables used throughout this analysis. For easier analysis, you can add these environmental variables to your `.bashrc` file.
 
 ```
-## User specific aliases and functions
 export RNA_HOME=~/scratch/rnaseq_citrobacter
 export RNA_DATA_DIR=$RNA_HOME/data
 export RNA_REFS_DIR=$RNA_HOME/refs
@@ -34,12 +33,10 @@ This workflow starts with the raw paired-end data in demultiplexed FASTQ format 
 
 ```
 # Creating a working directory
-echo $RNA_HOME
 mkdir -p $RNA_HOME
 cd $RNA_HOME
 
 # Create data folder
-echo $RNA_DATA_DIR
 mkdir -p $RNA_DATA_DIR
 cd $RNA_DATA_DIR
 ```
@@ -66,12 +63,11 @@ Download the *C. rodentium* ICC168 reference genome by utilizing [NCBI datasests
 
 ```
 # Create the reference genome folder
-echo $RNA_REFS_DIR
 mkdir $RNA_REFS_DIR
 cd $RNA_REFS_DIR
 
 # Download Citrobacter genomes from NCBI
-./datasets download genome taxon 67825 \
+datasets download genome taxon 67825 \
 --assembly-source refseq \
 --annotated \
 --assembly-level complete_genome,contig \
@@ -87,7 +83,7 @@ unzip citrobacter-rodentium.zip
 
 Perform read alignment by using STAR. 
 
-**Note:** As we are working with bacteria and their transcripts consist of single exons without splices, it is possible to replace all features in the third column of the `.gtf` file with "exon", and use the command `--sjdbGTFfeatureExon exon` during genome indexing.
+**Note:** As we are working with bacteria and their transcripts consist of single exons without splices, we replaced all features in the third column of the `.gtf` file with "exon", and then used the command `--sjdbGTFfeatureExon exon` during genome indexing.
 
 ```
 # Move to required folder
@@ -201,7 +197,7 @@ mkdir flagstat
 find .bam -exec echo samtools flagstat {} \> flagstat/{}.flagstat \; | sh
 
 
-# Picard (CollectRnaSeqMetrics)
+# Picard - CollectRnaSeqMetrics
 mkdir picard
 find *.bam -exec echo java -jar $PICARD CollectRnaSeqMetrics I={} O=picard/{}.RNA_Metrics REF_FLAT=$RNA_REFS_DIR_ICC168/genomic.ref_flat.txt STRAND=SECOND_READ_TRANSCRIPTION_STRAND RIBOSOMAL_INTERVALS=$RNA_REFS_DIR_ICC168/ref_ribosome.interval_list \; | sh
 
@@ -227,7 +223,27 @@ Gene counts were then imported to R for further processing.
 -----------------------------------------
 
 ### 6. Software
-fastqc/0.11.9 python/3.10.2 multiQC/1.12 datasets/13.17.0 star/2.7.9a picard/2.23.3 samtools/1.12 bedops/2.4.39 kentutils/401 bedtools/2.29.2 RSeQC/4.0.0
+* fastqc/0.11.9
+
+* python/3.10.2
+
+* multiQC/1.12
+
+* datasets/13.17.0
+
+* star/2.7.9a
+
+* picard/2.23.3
+
+* samtools/1.12
+
+* bedops/2.4.39
+
+* kentutils/401
+
+* bedtools/2.29.2
+
+* RSeQC/4.0.0
 
 
 ### 7. Acknowledgements
