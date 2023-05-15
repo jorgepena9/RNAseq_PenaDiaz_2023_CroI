@@ -1,4 +1,4 @@
-# RNA-seq analysis - Alignment
+# RNA-seq analysis
 #### Jorge Peña-Díaz - May 14th 2023
 
 -----------------------------------------
