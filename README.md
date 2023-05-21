@@ -1,4 +1,4 @@
-# RNA-seq analysis - Alignment
+# RNA-seq analysis
 #### Jorge Peña-Díaz - May 14th 2023
 
 -----------------------------------------
@@ -10,10 +10,8 @@ Bacterial Virulence and Colonization Dynamics During an Enteric Infection. bioRx
 
 The analysis consists of:
 
-* [RNA-seq analysis - QC and Alignment](https://github.com/jorgepean9/RNAseq_PenaDiaz_2023_CroI/blob/main/RNAseq_analysis.md)
+* [RNA-seq analysis - QC and Alignment](https://github.com/jorgepena9/RNAseq_PenaDiaz_2023_CroI/blob/main/RNAseq_analysis.md)
 
-* [RNA-seq analysis - Differential Expression using DESeq2](https://github.com/jorgepean9/RNAseq_PenaDiaz_2023_CroI/blob/main/DESeq2.md)
+* [RNA-seq analysis - Differential Expression](https://github.com/jorgepena9/RNAseq_PenaDiaz_2023_CroI/blob/main/Differential_expression.Rmd)
 
-* [RNA-seq analysis - Pathway enrichment analysis using GSEA and ClusterProfiler](https://github.com/jorgepean9/RNAseq_PenaDiaz_2023_CroI/blob/main/Enrichment.md)
-
-
+* [RNA-seq analysis - Pathway enrichment analysis](https://github.com/jorgepena9/RNAseq_PenaDiaz_2023_CroI/blob/main/Pathway_enrichment.Rmd)

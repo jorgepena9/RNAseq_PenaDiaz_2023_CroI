@@ -1,0 +1,44 @@
+gene_id,gene_name,synonym,product,product_kegg,LEE,order
+ROD_RS14840,ler,NA,H-NS histone family protein,Ler transcriptional regulator,LEE1,1
+ROD_RS14835,escE,NA,EscE/YscE/SsaE family type III secretion system needle protein co-chaperone,T3SS component,LEE1,2
+ROD_RS14830,cesAB,NA,type III secretion system filament chaperone,T3SS component,LEE1,3
+ROD_RS26500,escK,NA,hypothetical protein,T3SS component,LEE1,4
+ROD_RS14820,escL,NA,hypothetical protein,T3SS component,LEE1,5
+ROD_RS14815,escR,sctR,type III secretion system export apparatus subunit SctR,T3SS structural protein EscR,LEE1,6
+ROD_RS14810,escS,NA,type III secretion system LEE export apparatus protein EscS,T3SS structural protein EscS,LEE1,7
+ROD_RS14805,escT,sctT,type III secretion system export apparatus subunit SctT,T3SS structural protein EscT,LEE1,8
+ROD_RS14800,escU,NA,EscU/YscU/HrcU family type III secretion system export apparatus switch protein,T3SS structural protein EscU,LEE1,9
+ROD_RS14795,etgA,NA,lytic transglycosylase domain-containing protein,putative LEE-encoded exported protein,,10
+ROD_RS14790,grlR,NA,negative regulator GrlR,"GrlR, global regulator of LEE repressor",,11
+ROD_RS14785,grlA,NA,CaiF/GrlA family transcriptional regulator,"GrlA, global regulator of LEE activator",,12
+ROD_RS27610,ROD_30031,NA,helix-turn-helix domain-containing protein,pseudogene,,13
+ROD_RS26480,cesD,NA,SycD/LcrH family type III secretion system chaperone,T3SS chaperone CesD,LEE2,14
+ROD_RS14775,escC,NA,type III secretion system LEE outer membrane ring protein EscC,T3SS structural protein EscC,LEE2,15
+ROD_RS14770,sepD,NA,hypothetical protein,T3SS secretion switching protein SepD,LEE2,16
+ROD_RS14765,escJ,NA,type III secretion system LEE inner membrane ring protein EscJ,T3SS structural protein EscJ,LEE2,17
+ROD_RS14760,sctI,NA,type III secretion system inner rod subunit SctI,T3SS component,LEE2,18
+ROD_RS26475,espZ,NA,SepZ/EspZ family type III secretion system protein,T3SS effector protein EspZ,LEE2,19
+ROD_RS14755,cesL,mpc,hypothetical protein,T3SS regulator Mpc,LEE3,20
+ROD_RS14750,escV,NA,type III secretion system LEE export apparatus protein EscV,T3SS structural protein EscV,LEE3,21
+ROD_RS14745,escN,NA,type III secretion system LEE ATPase EscN,T3SS translocator EscN,LEE3,22
+ROD_RS14740,escO,NA,hypothetical protein,T3SS component,LEE3,23
+ROD_RS14735,escP,NA,DUF1106 domain-containing protein,T3SS component,LEE3,24
+ROD_RS14730,sepQ,NA,T3SS structural protein SepQ,T3SS structural protein SepQ,LEE3,25
+ROD_RS26470,espH,NA,hypothetical protein,T3SS effector protein EspH,LEE3,26
+ROD_RS14725,cesF,NA,type III secretion system chaperone,T3SS chaperone CesF,,27
+ROD_RS14720,map,NA,T3SS effector protein Map,T3SS effector protein Map,,28
+ROD_RS14710,tir,NA,type III secretion system LEE translocated intimin receptor Tir,"Tir, translocated intimin receptor",LEE5,29
+ROD_RS14705,cesT,NA,type III secretion system LEE chaperone CesT,T3SS chaperone CesT,LEE5,30
+ROD_RS14700,eae,NA,intimin,intimin,LEE5,31
+ROD_RS27605,ROD_29811,NA,IS256 family transposase,pseudogene,,32
+ROD_RS14685,escD,sctD,type III secretion system inner membrane ring subunit SctD,T3SS structural protein EscD,,33
+ROD_RS14680,sepL,NA,TyeA family type III secretion system gatekeeper subunit,T3SS secretion switching protein SepL,LEE4,34
+ROD_RS14675,espA,NA,type III secretion system LEE translocon filament protein EspA,T3SS translocator protein EspA,LEE4,35
+ROD_RS14670,espD,sctE,type III secretion system translocon subunit SctE,T3SS translocator protein EspD,LEE4,36
+ROD_RS14665,espB,NA,attachment protein EaeB,T3SS effector protein EspB,LEE4,37
+ROD_RS14660,cesD2,NA,hypothetical protein,T3SS chaperone CesD2,LEE4,38
+ROD_RS14655,escF,sctF,type III secretion system needle filament subunit SctF,T3SS structural protein EscF,LEE4,39
+ROD_RS14650,escG,NA,EscG/YscG/SsaH family type III secretion system needle protein co-chaperone,T3SS component,LEE4,40
+ROD_RS26460,espF,NA,type III secretion system LEE effector EspF,T3SS effector protein EspF,LEE4,41
+ROD_RS14645,r1,NA,SdiA-regulated domain-containing protein,LEE-associated conserved hypothetical protein,LEE4,42
+ROD_RS26455,espG,NA,secretion protein EspG,T3SS effector protein EspG,LEE4,43
