@@ -223,6 +223,7 @@ Gene counts were then imported to R for further processing.
 -----------------------------------------
 
 ### 6. Software
+
 * fastqc/0.11.9
 
 * python/3.10.2
