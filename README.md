@@ -12,6 +12,6 @@ The analysis consists of:
 
 * [RNA-seq analysis - QC and Alignment](https://github.com/jorgepena9/RNAseq_PenaDiaz_2023_CroI/blob/main/RNAseq_analysis.md)
 
-* [RNA-seq analysis - Differential Expression](https://github.com/jorgepena9/RNAseq_PenaDiaz_2023_CroI/blob/main/Differential_expression.Rmd)
+* [RNA-seq analysis - Differential Expression](https://github.com/jorgepena9/RNAseq_PenaDiaz_2023_CroI/blob/main/Differential_expression.md)
 
-* [RNA-seq analysis - Pathway enrichment analysis](https://github.com/jorgepena9/RNAseq_PenaDiaz_2023_CroI/blob/main/Pathway_enrichment.Rmd)
+* [RNA-seq analysis - Pathway enrichment analysis](https://github.com/jorgepena9/RNAseq_PenaDiaz_2023_CroI/blob/main/Pathway_enrichment.md)
