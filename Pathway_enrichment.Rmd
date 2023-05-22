@@ -2,7 +2,7 @@
 title: "RNA-seq analysis - Pathway enrichment analysis"
 author: "Jorge Peña Díaz"
 date: "`r Sys.Date()`"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
